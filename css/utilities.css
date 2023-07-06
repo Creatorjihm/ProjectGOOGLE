@@ -1,0 +1,12 @@
+.text-red {
+  color: #F1000C;
+}
+
+.text-blue {
+  color: #7CB4EB;
+}
+
+.flex {
+  margin: 15px 0;
+  /* inline-size: min-content; */
+}
