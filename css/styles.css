@@ -252,7 +252,7 @@ a {
 
 @media (max-width: 1200px) {
   .hero {
-    /* min-height: 100svh; */
+    min-height: 100svh;
     /* i used this so that all adjustment issues on viewports happening on mobile would be corrected. */
   }
 
