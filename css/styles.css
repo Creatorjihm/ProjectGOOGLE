@@ -51,14 +51,12 @@ a {
   border-radius: 50%;
 } */
 
-
 .hero .navbar ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-
 
 /* I used this type of code as instructed by a dev from discord to get an hover which wont get padding or margin issues affecting parent elements   */
 .hero .navbar .grid,
@@ -134,7 +132,7 @@ a {
 .hero .content .searchbox input {
   flex: 1;
   height: 40px;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   border: none;
   background: #202124;
   margin-left: 20px;
@@ -186,7 +184,7 @@ a {
 }
 
 .content .desc a {
-  color: #8AB4F8;
+  color: #8ab4f8;
   margin: 0 4px;
 }
 
@@ -248,8 +246,6 @@ a {
   padding-right: 5px;
 }
 
-
-
 @media (max-width: 1200px) {
   .hero {
     min-height: 100svh;
@@ -280,5 +276,4 @@ a {
     padding: 0;
     order: 3;
   }
-
 }
